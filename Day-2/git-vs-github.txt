@@ -1,0 +1,60 @@
+What is Git?
+
+“Git is a distributed version control system that helps track changes in source code.
+It allows developers to create snapshots of their work, manage branches, collaborate safely, and roll back to earlier versions when needed.”
+
+What is GitHub?
+
+“GitHub is a cloud-based hosting platform for Git repositories.
+It provides collaboration tools like pull requests, issue tracking, code reviews, and remote backups.
+Git is the version control tool, while GitHub is the service that stores Git repositories online.”
+
+What are the main differences between Git and GitHub?
+
+Answer:
+Git is a version control tool installed on your machine, while GitHub is an online service that hosts Git repositories. You can use Git without GitHub, but GitHub requires Git.”
+
+How do you initialize a Git repository?
+
+git init
+
+This creates a hidden .git folder that starts version control.
+
+How do you configure Git?
+
+“After installing Git, I configure my identity globally because Git requires name and email for commits.”
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+I verify settings with:”
+
+git config --global --list
+
+What are the Git stages?
+
+“Git has three main stages:
+
+Working Directory – where files are created or modified.
+
+Staging Area – files you select with git add to include in the next commit.
+
+Repository – the .git folder where committed snapshots are stored.”
+
+“The flow is: edit → stage → commit.”
+
+explain the difference between git add and git commit
+
+Answer:
+“git add moves changes to the staging area, while git commit permanently records the staged changes into the repository with a message.”
+
+What is git status? (Interview Answer)
+
+git status is a Git command that shows the current state of your working directory and staging area.
+It tells you what has changed and what Git is tracking.
+
+What is a real-world Git workflow?
+
+Answer:
+“My workflow is:
+clone → create branch → write code → add → commit → pull → push → open PR → review → merge.”

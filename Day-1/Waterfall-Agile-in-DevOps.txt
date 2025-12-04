@@ -1,0 +1,34 @@
+Waterfall vs Agile in DevOps
+
+1. Waterfall Methodology
+
+Waterfall is a linear, sequential development model.
+
+✔ Characteristics
+
+Fixed phases: Requirements → Design → Development → Testing → Deployment → Maintenance
+
+Each phase must be completed before the next begins
+
+Extensive documentation
+
+Agile Methodology
+
+Agile is iterative, flexible, and highly collaborative.
+
+✔ Characteristics
+
+Development happens in short sprints
+
+Continuous feedback and iterative improvement
+
+Requirements can evolve
+
+Emphasizes working software over documentation
+
+What is the difference between Waterfall and Agile methodology in DevOps?”
+
+Answer:
+In a DevOps environment, Agile aligns much better than Waterfall because DevOps focuses on continuous integration, continuous delivery, and rapid feedback loops. Waterfall is a linear, phase-driven model where development, testing, and deployment happen sequentially. This makes it harder to implement DevOps practices like automated testing or continuous deployments because each phase is rigidly separated and release cycles are long.
+
+Agile, on the other hand, is iterative and encourages continuous collaboration between cross-functional teams. These short, frequent sprints align directly with DevOps objectives. Agile teams deliver small increments of code frequently, which fits perfectly with DevOps CI/CD pipelines, automated testing, and continuous monitoring.
